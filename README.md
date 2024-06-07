@@ -1,1 +1,3 @@
-This repository contains the code files I wrote during my PRL at LLR. The topic was *The Impact of Vector $D$ Mesons Feeddown on the Ratio of Pseudo-Scalar $D$ Mesons*
+This repository contains the code files I wrote during my PRL at LLR. The topic was *The Impact of Vector* $D$ *Mesons Feeddown on the Ratio of Pseudo-Scalar* $D$ *Mesons*
+
+The MC decay trees necessary to run this code should be called stored in a folder with the name of the meson (D0, Dp, Dst). The folder should be at the same location as the script that is executed. In that folder, the program expects a root file containing the `TTree` called `GenD0MC_output.root`, `GenDpMC_output.root` or `GenDstMC_output.root`. They have not been uploaded here because their typical size is around 1 GB. Feel free to contact the author for more information.
